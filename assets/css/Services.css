@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-image: url(/assets/img/program1.jpg);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* THE BOTTOM OF THIS IS ALL HEADER CSS */
+header { 
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+header.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1.Name { 
+    color: white;
+    margin: 10px 10%;
+}
+
+.span1 {
+    color: #e60000;
+    font-size: larger;
+}
+
+Nav {
+    margin: 10px;
+    margin-right: 50px;
+    padding: 10px 10px;
+    width: fit-content;
+}
+
+a.nav-a {
+    padding: 15px 30px;
+    color: #e60000;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+#a1:hover, #a2:hover, #a4:hover {
+    color: #660000;
+    transition: ease-in-out 0.3s;
+}
+
+#a3:visited {
+    color: white;
+}
+
+#a3:active {
+    color: white;
+
+}
+
+/*The bottom is main*/
+
+/*This is mian*/
+main {
+    flex: 1;
+}
+.global-holder {
+    height: 100%;
+    padding: 10%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Services-list {
+    color: white;
+    text-align: justify;
+}
+
+.we-provide {
+    color: #00cc00;
+}
+
+.list1, .list2, .list3, .list4, .list5, .list6 {
+    color: #e60000;
+    width: fit-content;
+}
+
+.list1:hover, .list2:hover, .list3:hover, .list4:hover, .list5:hover, .list6:hover {
+    color: #00cc00;
+}
+
+/*The bottom is footer*/
+
+footer {
+    background-color: black;
+    margin:0;
+    padding: 30px;
+    font-style: italic;
+}
+
+div.footer-holder {
+    font-size:10px;
+    color: white;
+}
+
+
